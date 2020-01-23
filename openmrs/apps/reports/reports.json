@@ -26,6 +26,48 @@
             ]
         }
     },
+    "visitReport11": {
+        "name": "Patient Visit",
+        "type": "MRSGeneric",
+        "config": {
+          "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/patient_visit.sql"
+        }
+    },
+    "visitReport12": {
+        "name": "Patient Data",
+        "type": "MRSGeneric",
+        "config": {
+          "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/patient_data.sql"
+        }
+    },
+    "visitReport13": {
+        "name": "Patient Category",
+        "type": "MRSGeneric",
+        "config": {
+          "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/patient_category.sql"
+        }
+    },
+    "visitReport14": {
+        "name": "Patient Fees",
+        "type": "MRSGeneric",
+        "config": {
+          "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/patient_fees.sql"
+        }
+    },
+    "visitReport15": {
+        "name": "Patient Diagnosis",
+        "type": "MRSGeneric",
+        "config": {
+          "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/patient_diagnosis.sql"
+        }
+    },
+    "visitReport16": {
+        "name": "Lab Tests",
+        "type": "MRSGeneric",
+        "config": {
+          "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/lab_test.sql"
+        }
+    },
     "testReport": {
         "name": "Test Observation Report",
         "type": "observations",

@@ -86,6 +86,9 @@
                     "required": true,
                     "label": "Fee"
                 },
+                "CARD LOST FEES": {
+                     "label": "Fee"
+                },
                 "FHS": {
                     "buttonSelect": true
                 },
@@ -103,21 +106,15 @@
             },
             "patientSearch": {
                 "address": {
-                    "label": "Rural Ward",
-                    "placeholder": "Enter ward",
-                    "field": "address2"
+                    "label": "Village",
+                    "placeholder": "Enter Village Name",
+                    "field": "city_village"
                 },
                 "customAttributes": {
-                    "label": "रुग्णाचे नाव",
-                    "placeholder": "रुग्णाचे नाव",
-                    "fields": ["givenNameLocal", "middleNameLocal", "familyNameLocal"]
-                },
-                "personAttributes": {
                     "label": "Mobile No",
-                    "placeholder": "Enter mobile",
-                    "field": "secondaryContact"
-                    
-                }
+                      "placeholder": "Enter Mobile Number",
+                      "fields": ["secondaryContact"]
+                  }
             }
         }
 }
